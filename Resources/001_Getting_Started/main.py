@@ -29,7 +29,7 @@ plt.ylabel('Price')
     # Adding title to the plot
 plt.title('House Price vs Size')
     # Show the plot
-# plt.show()
+plt.show()
 
 # Step 3: Train a model
     # The reason we need to reshape the data is because sklearn expects a 2D array. Right now data['sqft'] is a 1D array => [800, 1000, 1200, 1500, 1800, 2000, 2200, 2500]
